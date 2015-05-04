@@ -6,6 +6,10 @@ app.config(['$routeProvider',
       templateUrl: 'views/home.html',
       controller: 'Ctrl'
     }).
+    when('/grandstaff', {
+      templateUrl: 'views/grand-staff.html',
+      controller: 'GSCtrl'
+    }).
     otherwise({
       redirectTo: '/'
     })
