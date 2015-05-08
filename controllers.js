@@ -1,5 +1,6 @@
 'use strict';
 app.controller('Ctrl', ['$scope',
   function($scope) {
-    $('.container').css({'margin-top':'70px'})
+    $('.navbar').show()
+    $('.container').css({'margin-top':'70px','padding':'0 15px'})
   }])

@@ -1,0 +1,26 @@
+<div ng-show="showMenu">
+  <div class="col-md-offset-4 col-md-4">
+    <div class="panel panel-default ">
+      <div class="panel-heading">Scales</div>
+      <div class="panel-body">
+        <h3>High Score: {{highScore}}</h3> <br>
+        <a href="/#/"><button class="btn btn-block btn-info" ng-click="goHome()">Home</button></a>
+        <br>
+        <button ng-click="startGame()" class="btn btn-block btn-success">Play</button>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- Music Theory -->
+          <ins class="adsbygoogle"
+               style="display:block"
+               data-ad-client="ca-pub-5931961133736315"
+               data-ad-slot="4639673854"
+               data-ad-format="auto"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+      </div>
+    </div>
+  </div>
+</div>
+<div ng-show="!showMenu">
+<div id="gameStage"></div>
+</div>
